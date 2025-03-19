@@ -43,28 +43,34 @@ p {text-align: center;
 	padding-left:400px;
 	padding-right: 400px;
 	color: white;}
-div {text-align: center;
+div {text-align: left;
 	color: white;}
-	h4{color: white;
+	h4{color: black;
+    text-align: left;
 		padding-left:10px;
 	padding-right: 10px;}
-	h3{color: white;
+	h3{color: black;
 	}
+  .maintext{color: black;}
 	@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
-h3 {
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
-	color: white}
-.header4 
-	{
-		margin-left: 100px;
-	margin-right: 100px;
-	color: white;}
-h5
-	{
-		margin-left: 100px;
-	margin-right: 100px;}
+
+
+/* Style for h4 */
+ .maintext {
+    border: 2px solid #000; /* Adds a solid black border around the elements */
+    padding: 10px; /* Adds space inside the box */
+    margin: 10px 20px; /* Adds space outside the box (10px top/bottom, 20px left/right) */
+    border-radius: 5px; /* Rounds the corners of the box */
+    background-color: #f9f9f9; /* Adds a light background color */
+    max-width: 90%; /* Ensures the box doesn't stretch too wide */
+    margin-left: auto; /* Centers the box horizontally */
+    margin-right: auto; /* Centers the box horizontally */
+}
+
 </style>
+<h1 class="titletext" style="margin-bottom: 50px;">Rosmini Envirogroup Promoting Nature Awareness and Cleanliness</h3>
+<h4 class="header4" style="margin-bottom: 100px;">Join us in our mission to raise awareness about environmental issues and promote cleanliness within the Rosmini College community.</h4>
+	
     </body>
 
 	
@@ -105,42 +111,158 @@ h5
 </div>
 </div>
  
-	<h3>THIS IS ROSMINI</h3>
-	<h4 class=header4>Rosmini College is a Catholic Boys’ School founded by the Rosminian order to provide a Catholic education to young men on Auckland’s North Shore. We aim to shape them into well-rounded young men ready to leave school who are able to make a positive contribution to society and are empowered to serve others by living out the founder’s maxims.
 
-<h5>Our Mission: Rosmini College supports and develops well-rounded young men while keeping true to the maxims of Antonio Rosmini.  A holistic education in the Rosminian tradition that fosters a genuine encounter with Christ.</h5>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-Only Carousel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-<h5>Our Vision: Christ-centred young men who have the values, attitudes, knowledge and skills to fulfil their life and be empowered to serve others.</h5>
+<body>
+  
+    <div class="carousel">
+        <!-- Images -->
+        <div class="carousel-inner">
+            <div id="slide1" class="carousel-item">
+                <img src="../../public/images/image1.jpg" alt="Image 1">
+            </div>
+            <div id="slide2" class="carousel-item">
+                <img src="../../public/images/image2.jpg" alt="Image 2">
+            </div>
+            <div id="slide3" class="carousel-item">
+                <img src="../../public/images/image3.jpg" alt="Image 3">
+            </div>
+            <div id="slide4" class="carousel-item">
+                <img src="../../public/images/image4.jpg" alt="Image 4">
+            </div>
+            <div id="slide5" class="carousel-item">
+                <img src="image5.jpg" alt="Image 5">
+            </div>
+        </div>
 
-<h5>Our Values: Dignity. Integrity. Fairness. Charity. Justice</h5>
+        <!-- Arrows -->
+        <a href="#slide5" class="carousel-control prev">&#10094;</a>
+        <a href="#slide2" class="carousel-control next">&#10095;</a>
 
-<h5>Our Motto: Charity fulfils the law.</h5>
+        <!-- Progress Bars -->
+        <div class="progress-bars">
+            <a href="#slide1" class="progress-bar"></a>
+            <a href="#slide2" class="progress-bar"></a>
+            <a href="#slide3" class="progress-bar"></a>
+            <a href="#slide4" class="progress-bar"></a>
+            <a href="#slide5" class="progress-bar"></a>
+        </div>
+    </div>
+    
+</body>
+</html>
+<style>
+/* Carousel Container */
+.carousel {
+    position: relative;
+    max-width: 6000px;
+    max-height: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
-<h5>Treaty of Waitangi: Rosmini College is committed to the principles of the Treaty of Waitangi and actively supports and encourages the achievement of its Maori pupils and fosters Maori culture.</h5>
+/* Carousel Inner Container */
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 500%; /* 5 images = 500% width */
+}
 
-<h5>Special Character: Rosmini College is a learning community that requires each student to pursue his fullest potential in spiritual, academic, social, cultural and co-curricular pursuits. The school will equip each student with the desire to keep the Law of Christ;  
+/* Carousel Items */
+.carousel-item {
+    width: 20%; /* Each item takes 100% of the container width */
+    box-sizing: border-box;
+    flex-shrink: 0; /* Prevent shrinking */
+}
 
-		“Love the Lord your God with your whole heart and your neighbour as yourself.”</h5>
-	
+.carousel-item img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Arrows */
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-control:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Progress Bars */
+.progress-bars {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+}
+
+.progress-bar {
+    width: 30px;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+/* Highlight the active progress bar */
+#slide1:target ~ .progress-bars [href="#slide1"],
+#slide2:target ~ .progress-bars [href="#slide2"],
+#slide3:target ~ .progress-bars [href="#slide3"],
+#slide4:target ~ .progress-bars [href="#slide4"],
+#slide5:target ~ .progress-bars [href="#slide5"] {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* Slide Navigation */
+#slide1:target ~ .carousel-inner {
+    transform: translateX(0%);
+}
+#slide2:target ~ .carousel-inner {
+    transform: translateX(-100%);
+}
+#slide3:target ~ .carousel-inner {
+    transform: translateX(-200%);
+}
+#slide4:target ~ .carousel-inner {
+    transform: translateX(-300%);
+}
+#slide5:target ~ .carousel-inner {
+    transform: translateX(-400%);
+}
+</style>
+
 
 <?php include(SHARED_PATH . "/footer.php") ?>
-		html {
-background-color: black;
-}
-#wrapper {
-width: 440px;
-margin: auto;
-}
-#maincontent {
-width: 260px;
-float: left;
-}
-aside {
-width: 160px;
-float: right;
-}
-footer {
-clear: both; /* This forces
-the footer to go under
-everything else */
-}
