@@ -22,7 +22,6 @@
             display: table-cell;
             vertical-align: middle;
             text-align: center;
-}
         }
 
         h1 {
@@ -38,7 +37,7 @@
     </style>
 </head>
 <body>
-<img src=../images/logo.png>
+<img src="../images/logo.png">
     <h1>Coming soon!</h1>
 </body>
 </html>

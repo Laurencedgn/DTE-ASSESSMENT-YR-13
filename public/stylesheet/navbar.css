@@ -5,13 +5,13 @@ body {
     font-family: sans-serif;
     line-height: 1.5;
     min-height: 100vh;
-    background: #f3f3f3;
+    background: #000000;
     flex-direction: column;
     margin: 0;
 }
  
 .main {
-    background-color: #fff;
+    background-color: #000000;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     padding: 10px 20px;
@@ -41,7 +41,7 @@ input {
     margin-bottom: 15px;
     padding: 10px;
     box-sizing: border-box;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     border-radius: 5px;
 }
  
@@ -51,7 +51,7 @@ button {
     margin-top: 15px;
     margin-bottom: 15px;
     border: none;
-    color: white;
+    color: rgb(0, 0, 0);
     cursor: pointer;
     background-color: #4CAF50;
     width: 100%;

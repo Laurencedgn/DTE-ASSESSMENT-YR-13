@@ -67,7 +67,6 @@
         color: black;
         padding-top: 75px;
         font-family: Poiret One;
-        font-weight: 600;
     }
 
     p {
@@ -99,15 +98,25 @@
         text-align: center;
         padding-left: 10px;
         padding-right: 10px;
-        font-family: Raleway
+        font-family: Raleway;
     }
 
     h3 {
         color: black;
     }
 
+    .maintext {
+        color: black;
+        border: 2px solid #000;
+        padding: 10px;
+        margin: 10px 20px;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 </style>
-
 
 <h1 class="titletext" style="margin-bottom: 50px;">Rosmini Envirogroup Promoting Nature Awareness and Cleanliness</h1>
 <h4 class="header4" style="margin-bottom: 100px;">Join us in our mission to raise awareness about environmental issues and promote cleanliness within the Rosmini College community.</h4>

@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    background-color: #4682B4;
+    background-color: #ffffff;
   }
   
   .motto {
@@ -24,8 +24,8 @@
   .nav__links a,
   .cta,
   .overlay__content a {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
     color: white;
     text-decoration: none;
   }
@@ -44,12 +44,12 @@
   }
   
   .nav__links li a:hover {
-    color:#0047AB;
+    color:#8ed38e;
   }
   
   .cta {
     padding: 9px 25px;
-    background-color: #ADD8E6;
+    background-color: #8ed38e;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -57,7 +57,7 @@
   }
   
   .cta:hover {
-    background-color: #0047AB;
+    background-color: #107710;
   }
   
   /* Mobile Nav */
