@@ -24,7 +24,7 @@
 				
                 <ul class="nav__links">
                     <li><a href="../../public/home/index.php">Home</a></li>
-                    <li><a href="../../public/staff/index.php">About us</a></li>
+                    <li><a href="../../public/staff/aboutus.php">About us</a></li>
                     <li><a href="../staff/getinvolved.php">Get Involved</a></li>
 					<li><a href="../staff/extra.php">Resources</a></li>
 					<li><a href="../staff/extra.php">Contact us</a></li>
@@ -176,7 +176,7 @@
 
   <div class="button-container">
     <a href="../staff/extra.php" class="button learn-more">Learn More</a>
-    <a href="../staff/extra.php" class="button get-involved">Get Involved</a>
+    <a href="../staff/getinvolved.php" class="button get-involved">Get Involved</a>
   </div>
 
 </body>

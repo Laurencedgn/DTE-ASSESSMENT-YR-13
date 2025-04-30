@@ -23,7 +23,7 @@
 				
                 <ul class="nav__links">
                     <li><a href="../../public/home/index.php">Home</a></li>
-                    <li><a href="../../public/staff/index.php">About us</a></li>
+                    <li><a href="../../public/staff/aboutus.php">About us</a></li>
                     <li><a href="../../public/staff/getinvolved.php">Get Involved</a></li>
 					<li><a href="extra.php">Resources</a></li>
 					<li><a href="extra.php">Contact us</a></li>
@@ -48,6 +48,15 @@
 <script src="mobile.js"></script>
 
 <style>
+    footer {
+        background-color: #f8f8f8;
+        padding: 20px 0;
+        font-family: sans-serif;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+         left: 0;
+    }
     .motto{
         font-family: Cinzel;
     }
