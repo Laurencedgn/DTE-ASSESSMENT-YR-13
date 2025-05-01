@@ -82,6 +82,7 @@
         font-size: 15px;
         font-family: Raleway;
         line-height: 1.5;
+    
     }
     .section2header{
         text-align: left;

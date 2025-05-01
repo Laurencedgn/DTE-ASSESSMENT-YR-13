@@ -86,10 +86,11 @@
         font-size: 15px;
         font-family: Raleway;
         line-height: 1.5;
+        padding-right: 150px;
     }
     .section2header{
         text-align: left;
-        padding-left: 210px;
+        padding-left: 150px;
         margin-bottom: 25px;
         font-family: Poiret One;
         font-weight: 600;
@@ -144,9 +145,9 @@
 
 <body>
 <h1 class="titletext" style="margin-bottom: 50px;">Rosmini Envirogroup Promoting Nature Awareness and Cleanliness</h1>
-<h4 class="header4" style="margin-bottom: 100px;">Join us in our mission to raise awareness about environmental issues and promote cleanliness within the Rosmini College community.</h4>
+<h4 class="header4" style="margin-bottom: 100px;">Working to make New Zealand a better, cleaner place</h4>
 <h2 class="section2header" style="margin-top: 50px;" >Who We Are</h2>
-<p class="section2text" style="padding-left: 210px;" style="text-align: left;" style="padding-right: 10px;">Rosmini College, a prominent Catholic boys' school located on Auckland's North Shore, is renowned for its commitment to academic excellence, character formation, and environmental stewardship. The college's Envirogroup plays a vital role in fostering sustainability and environmental awareness among students and staff. This dedicated group organizes initiatives such as tree planting, waste reduction campaigns, and educational projects to promote eco-friendly practices within the school and the wider community. By encouraging students to take an active role in protecting the environment, Rosmini College's Envirogroup not only contributes to a greener future but also instills a sense of responsibility and respect for nature in its members. Through these efforts, the college demonstrates its commitment to living out its values of service and care for creation.</p>
+<p class="section2text" style="padding-left: 150px;" style="text-align: left;">Rosmini College, a prominent Catholic boys' school located on Auckland's North Shore, is renowned for its commitment to academic excellence, character formation, and environmental stewardship. The college's Envirogroup plays a vital role in fostering sustainability and environmental awareness among students and staff. This dedicated group organizes initiatives such as tree planting, waste reduction campaigns, and educational projects to promote eco-friendly practices within the school and the wider community. By encouraging students to take an active role in protecting the environment, Rosmini College's Envirogroup not only contributes to a greener future but also instills a sense of responsibility and respect for nature in its members. Through these efforts, the college demonstrates its commitment to living out its values of service and care for creation.</p>
 <div class="content-with-image">
     <!-- Text Box on Left -->
     <div class="text-box">
