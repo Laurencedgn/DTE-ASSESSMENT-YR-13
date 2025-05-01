@@ -52,10 +52,6 @@
         background-color: #f8f8f8;
         padding: 20px 0;
         font-family: sans-serif;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-         left: 0;
     }
     .motto{
         font-family: Cinzel;
@@ -130,4 +126,5 @@
 
 <h1 class="titletext" style="margin-bottom: 50px;">Rosmini Envirogroup Promoting Nature Awareness and Cleanliness</h1>
 <h4 class="header4" style="margin-bottom: 100px;">Join us in our mission to raise awareness about environmental issues and promote cleanliness within the Rosmini College community.</h4>
+
 <?php include(SHARED_PATH . "/footer.php") ?>

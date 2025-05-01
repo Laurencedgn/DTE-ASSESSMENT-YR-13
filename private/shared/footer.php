@@ -28,8 +28,6 @@ footer {
   background-color: #f8f8f8;
   padding: 20px 0;
   font-family: sans-serif;
-  position; fixed
-  bottom; 0
 }
 
 .footer-content {

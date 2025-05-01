@@ -30,7 +30,7 @@
 					<li><a href="../staff/extra.php">Contact us</a></li>
                 </ul>
             </nav>
-            <a class="cta" href="#">Contact</a>
+            <a class="cta" href="#">Login</a>
             <p class="menu cta">Menu</p>
         </header>
         <div class="overlay">

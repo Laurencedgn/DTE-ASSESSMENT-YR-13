@@ -29,7 +29,7 @@
 					<li><a href="extra.php">Contact us</a></li>
                 </ul>
             </nav>
-            <a class="cta" href="#">Contact</a>
+            <a class="cta" href="#">Login</a>
             <p class="menu cta">Menu</p>
         </header>
         <div class="overlay">
@@ -52,10 +52,6 @@
         background-color: #f8f8f8;
         padding: 20px 0;
         font-family: sans-serif;
-        position: fixed;
-        bottom: 0;
-        right: 0;
-         left: 0;
     }
     .motto{
         font-family: Cinzel;
@@ -81,8 +77,8 @@
 
     p {
         text-align: center;
-        padding-left: 400px;
-        padding-right: 400px;
+        padding-left: 210px;
+        padding-right: 210px;
         color: black;
     }
     .section2text{
@@ -93,7 +89,7 @@
     }
     .section2header{
         text-align: left;
-        padding-left: 150px;
+        padding-left: 210px;
         margin-bottom: 25px;
         font-family: Poiret One;
         font-weight: 600;
@@ -115,9 +111,53 @@
         color: black;
     }
 
+    .content-with-image {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin: 20px 0;
+    }
+
+    .text-box {
+        flex: 1;
+        padding left: 210px;
+        background-color: #f5f5f5;
+        border-radius: 8px;
+    }
+
+    .image-box {
+        padding left: 210px;
+        flex: 1;
+        text-align: center;
+    }
+
+    .image-box img {
+        padding left: 210px;
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
 </style>
 
 
+
+<body>
 <h1 class="titletext" style="margin-bottom: 50px;">Rosmini Envirogroup Promoting Nature Awareness and Cleanliness</h1>
 <h4 class="header4" style="margin-bottom: 100px;">Join us in our mission to raise awareness about environmental issues and promote cleanliness within the Rosmini College community.</h4>
+<h2 class="section2header" style="margin-top: 50px;" >Who We Are</h2>
+<p class="section2text" style="padding-left: 210px;" style="text-align: left;" style="padding-right: 10px;">Rosmini College, a prominent Catholic boys' school located on Auckland's North Shore, is renowned for its commitment to academic excellence, character formation, and environmental stewardship. The college's Envirogroup plays a vital role in fostering sustainability and environmental awareness among students and staff. This dedicated group organizes initiatives such as tree planting, waste reduction campaigns, and educational projects to promote eco-friendly practices within the school and the wider community. By encouraging students to take an active role in protecting the environment, Rosmini College's Envirogroup not only contributes to a greener future but also instills a sense of responsibility and respect for nature in its members. Through these efforts, the college demonstrates its commitment to living out its values of service and care for creation.</p>
+<div class="content-with-image">
+    <!-- Text Box on Left -->
+    <div class="text-box">
+        <h2>Environmental Education</h2>
+        <p>Engage in interactive workshops and seminars to learn about environmental issues and how to make a positive impact.</p>
+    </div>
+    
+    <!-- Image on Right -->
+    <div class="image-box">
+        <img src="images/environment-workshop.jpg" alt="Environmental Workshop">
+    </div>
+</div>
+</body>
 <?php include(SHARED_PATH . "/footer.php") ?>
