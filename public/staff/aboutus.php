@@ -121,7 +121,8 @@
 
     .text-box {
         flex: 1;
-        padding left: 210px;
+        margin-left: 150px;
+        margin-right: 10px;
         background-color: #f5f5f5;
         border-radius: 8px;
     }
@@ -138,7 +139,13 @@
         height: auto;
         border-radius: 8px;
     }
-
+    .textboxheader {
+        color: black;
+        margin-top: 20px;
+    }
+    .textboxtext {
+        margin-top: 20px;
+    }
 </style>
 
 
@@ -151,8 +158,8 @@
 <div class="content-with-image">
     <!-- Text Box on Left -->
     <div class="text-box">
-        <h2>Environmental Education</h2>
-        <p>Engage in interactive workshops and seminars to learn about environmental issues and how to make a positive impact.</p>
+        <h2 class="textboxheader" style="text-align: center;">Environmental Education</h2>
+        <p class="textboxtext">Engage in interactive workshops and seminars to learn about environmental issues and how to make a positive impact.</p>
     </div>
     
     <!-- Image on Right -->
