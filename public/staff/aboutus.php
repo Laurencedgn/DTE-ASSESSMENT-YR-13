@@ -75,12 +75,6 @@
         font-weight: 600;
     }
 
-    p {
-        text-align: center;
-        padding-left: 210px;
-        padding-right: 210px;
-        color: black;
-    }
     .section2text{
         text-align: left;
         font-size: 15px;
@@ -115,28 +109,27 @@
     .content-with-image {
         display: flex;
         align-items: center;
-        gap: 20px;
+        gap: 5px;
         margin: 20px 0;
     }
 
     .text-box {
         flex: 1;
         margin-left: 150px;
-        margin-right: 10px;
         background-color: #f5f5f5;
         border-radius: 8px;
     }
 
     .image-box {
-        padding left: 210px;
         flex: 1;
+        margin-right: 150px;
         text-align: center;
     }
 
     .image-box img {
-        padding left: 210px;
-        max-width: 100%;
-        height: auto;
+        position: relative;
+        max-width: 6000px;
+        max-height: 1000px;
         border-radius: 8px;
     }
     .textboxheader {
@@ -145,6 +138,11 @@
     }
     .textboxtext {
         margin-top: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        color: black;
+        margin-bottom: 50px;
+
     }
 </style>
 
@@ -159,12 +157,15 @@
     <!-- Text Box on Left -->
     <div class="text-box">
         <h2 class="textboxheader" style="text-align: center;">Environmental Education</h2>
-        <p class="textboxtext">Engage in interactive workshops and seminars to learn about environmental issues and how to make a positive impact.</p>
+        <p class="textboxtext">The goals of the Rosmini Environment Group focus on promoting sustainability, raising awareness about environmental issues, and encouraging positive ecological actions within the school community. The group aims to reduce the school’s carbon footprint by supporting initiatives such as recycling programs, waste reduction, and energy conservation. They work to educate students and staff about the importance of protecting the environment through campaigns, events, and collaboration with local environmental organizations. Ultimately, their goal is to foster a culture of environmental responsibility and inspire long-term change both within the school and the wider community.
+
+Would you like this tailored for a newsletter, presentation, or something else?
+</p>
     </div>
     
     <!-- Image on Right -->
     <div class="image-box">
-        <img src="images/environment-workshop.jpg" alt="Environmental Workshop">
+        <img src="../images/grouppic.png" alt="Environmental Workshop">
     </div>
 </div>
 </body>
