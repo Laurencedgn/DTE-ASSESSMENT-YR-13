@@ -5,20 +5,20 @@
     </div>
     <nav class="footer-nav">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Resources</a></li>
-        <li><a href="#">Get Involved</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="../../public/home/index.php">Home</a></li>
+        <li><a href="../../public/staff/aboutus.php">About Us</a></li>
+        <li><a href="../../public/staff/getinvolved.php">Get Involved</a></li>
+        <li><a href="../../public/staff/extra.php">Resources</a></li>
+        <li><a href="../../public/staff/extra.php">Contact Us</a></li>
       </ul>
     </nav>
     <hr>
     <div class="footer-bottom">
       <p>&copy; 2025 Rosmini College</p>
       <div class="footer-legal">
-        <a href="../../public/staff/subjects/extra.php">Privacy Policy</a>
-        <a href="#">Terms and Conditions</a>
-        <a href="#">Cookies Policy</a>
+        <a href="../../public/staff/extra.php">Privacy Policy</a>
+        <a href="../../public/staff/extra.php">Terms and Conditions</a>
+        <a href="../../public/staff/extra.php">Cookies Policy</a>
       </div>
     </div>
   </div>

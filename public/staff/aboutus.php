@@ -109,7 +109,7 @@
     .content-with-image {
         display: flex;
         align-items: center;
-        gap: 5px;
+        gap: 0px;
         margin: 20px 0;
     }
 
@@ -121,27 +121,32 @@
     }
 
     .image-box {
-        flex: 1;
+        flex: ;
         margin-right: 150px;
+        margin-left: 50px;
         text-align: center;
     }
 
     .image-box img {
         position: relative;
-        max-width: 6000px;
-        max-height: 1000px;
+        height: 350px;
         border-radius: 8px;
     }
     .textboxheader {
         color: black;
         margin-top: 20px;
+        font-family: Poiret One;
+        font-weight: 600;
     }
     .textboxtext {
         margin-top: 20px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 75px;
+        padding-right: 75px;
         color: black;
         margin-bottom: 50px;
+        font-size: 15px;
+        font-family: Raleway;
+        line-height: 1.5;
 
     }
 </style>
@@ -157,9 +162,22 @@
     <!-- Text Box on Left -->
     <div class="text-box">
         <h2 class="textboxheader" style="text-align: center;">Environmental Education</h2>
-        <p class="textboxtext">The goals of the Rosmini Environment Group focus on promoting sustainability, raising awareness about environmental issues, and encouraging positive ecological actions within the school community. The group aims to reduce the school’s carbon footprint by supporting initiatives such as recycling programs, waste reduction, and energy conservation. They work to educate students and staff about the importance of protecting the environment through campaigns, events, and collaboration with local environmental organizations. Ultimately, their goal is to foster a culture of environmental responsibility and inspire long-term change both within the school and the wider community.
+        <p class="textboxtext">Rosmini Environment Group: Leading the Charge for a Sustainable Future
 
-Would you like this tailored for a newsletter, presentation, or something else?
+At Rosmini School, we're passionate about creating a sustainable future—one that protects our environment for generations to come. The Rosmini Environment Group is on a mission to reduce our carbon footprint and inspire positive ecological change within our community.
+
+What We Do:
+
+Sustainability Initiatives: We're committed to reducing waste, increasing recycling, and conserving energy across the school.
+
+Awareness Campaigns: Through educational events and partnerships with local environmental organizations, we aim to teach the importance of environmental responsibility.
+
+Actionable Change: Whether it's through waste reduction or energy-saving initiatives, we're taking steps to reduce our impact.
+
+Get Involved!
+Want to make a difference? Join us for upcoming campaigns and events, and learn how you can contribute to a greener, healthier planet.
+
+Together, we can foster a culture of environmental responsibility at Rosmini and beyond!
 </p>
     </div>
     

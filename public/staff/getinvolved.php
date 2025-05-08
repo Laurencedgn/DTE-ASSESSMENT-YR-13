@@ -77,8 +77,8 @@
 
     p {
         text-align: center;
-        padding-left: 400px;
-        padding-right: 400px;
+        padding-left: 20px;
+        padding-right: 20x;
         color: black;
     }
     .section2text{
@@ -93,10 +93,6 @@
         margin-bottom: 25px;
         font-family: Poiret One;
         font-weight: 600;
-    }
-    div {
-        text-align: left;
-        color: white;
     }
 
     .header4 {
@@ -123,8 +119,133 @@
         margin-right: auto;
     }
 </style>
-
-<h1 class="titletext" style="margin-bottom: 50px;">Rosmini Envirogroup Promoting Nature Awareness and Cleanliness</h1>
-<h4 class="header4" style="margin-bottom: 100px;">Join us in our mission to raise awareness about environmental issues and promote cleanliness within the Rosmini College community.</h4>
+    <title>Get Involved | Rosmini EnviroGroup</title>
+    <style>
+        body {
+            font-family: 'Poiret One';
+            font-weight: 600;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2e7d32; /* Green theme */
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600px;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        
+        .checkbox-group {
+            margin: 10px 0;
+        }
+        
+        .checkbox-group label {
+            display: inline-block;
+            margin-right: 15px;
+            font-weight: 600px;
+        }
+        
+        button {
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            transition: 0.3s;
+        }
+        
+        button:hover {
+            background-color: #1b5e20;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Join Rosmini EnviroGroup!</h1>
+        <p>Fill out the form below to get involved in our sustainability initiatives. Together, we can make a difference!</p>
+        
+        <form action="#" method="POST"> <!-- Replace # with your form handler (e.g., Google Forms link) -->
+            <div class="form-group">
+                <label for="name">Full Name*</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="year">Year Level</label>
+                <select id="year" name="year">
+                    <option value="">Select Year</option>
+                    <option value="9">Year 9</option>
+                    <option value="10">Year 10</option>
+                    <option value="11">Year 11</option>
+                    <option value="12">Year 12</option>
+                    <option value="13">Year 13</option>
+                    <option value="teacher">Teacher/Staff</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label>Areas of Interest (Check all that apply)</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="interest" value="recycling"> Recycling Initiatives</label>
+                    <label><input type="checkbox" name="interest" value="gardening"> School Gardening</label>
+                    <label><input type="checkbox" name="interest" value="events"> Eco-Events & Workshops</label>
+                    <label><input type="checkbox" name="interest" value="advocacy"> Environmental Advocacy</label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Why do you want to join? (Optional)</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            
+            <button type="submit">Sign Up Now</button>
+        </form>
+    </div>
+</body>
+</html>
 
 <?php include(SHARED_PATH . "/footer.php") ?>
